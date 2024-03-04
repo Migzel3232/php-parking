@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('imagenes/Parqueadero.jfif'); /* Reemplaza 'ruta-de-tu-imagen.jpg' con la URL o ruta de tu imagen */
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 100vh; /* Ajusta la altura al viewport height */
+}
+  .Menu {
+    height: 300px;
+    width: 600px; 
+    padding: 20px;
+    border-radius: 50%;
+    background-color: #b9cada;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.boton1{
+    margin-right: 60px;
+    margin-top: 40px;
+}
+
+.boton2{
+    margin-top: 40px;
+}
+
+h2{
+    position: absolute;
+    margin-bottom: 150px;
+}
+
+
+.custom-form {
+    border: 2px solid #000000; /* Color del borde del formulario */
+    background-color: #fcff53; /* Color de fondo del formulario */
+}
+
+.offcanvas {
+    background-color: #9c9c9c; /* Color de fondo de la offcanvas */
+    color: #000000; /* Color del texto en la offcanvas, ajusta según sea necesario */
+}
+
